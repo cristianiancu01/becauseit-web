@@ -1,0 +1,197 @@
+   
+      /* Coperta */
+      div.cover {
+              background-color: #1E2330;
+              height: 400px;
+              text-align: center;
+              vertical-align: middle;
+              padding: 140px;
+      }
+
+      
+      text-cover {
+        text-align: center;
+        color: white;
+        font-size: 5.5vw;
+        font-weight: bold;
+        min-width: 4vw;
+      }
+
+      /* Navigation Bar */
+      #navbar {
+                 background-color: #1E2330;
+                 overflow: hidden;
+      }
+      #navbar a {
+                  float: right;
+                  display: block;
+                  color: #ffffff;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                  font-size: 17px;
+      }
+      #navbar a:hover {
+                  background-color: #F8C91C;
+                  color: #1E2330;
+      }
+      #navbar a.active {
+                  background-color: #433F50;
+                  color: white;
+      }
+
+      /* Text Principal */
+      div.cover2 {
+              background-color: #ffffff;
+              height: 20px;
+              text-align: center;
+              vertical-align: middle;
+              padding: 22px;
+      }
+      
+      text-titles {
+        color: #000000;
+        font-size: 40px;
+      }
+
+      text-subtitles {
+        color: #818181;
+        font-size: 20px;
+        padding-bottom: 5px;
+      }
+      
+      /* Butoane */
+      .button-p {
+        background-color: #E1E4E6;
+        color: black;
+        border: none;
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 0.4px;
+        padding: 10px 24px;
+        margin: 10px 10px 5px 5px;
+        border-radius: 1.5px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+      }
+
+      .button-p:hover {
+        background-color: #1E2330;
+        color: white;
+        text-decoration: none;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+      }
+
+      /* Coloane */
+      .column {
+        text-align: left;
+        padding-left: 85px;
+        float: left;
+        width: 50%;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Block Quote */
+
+      div.block-quote {
+        background-color: #E1E4E6;
+        color: black;
+        text-align: left;
+        display: block;
+        font-size: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 45px;
+        margin-top: 70px;
+        margin-left: 85px;
+        margin-right: 85px;
+        margin-bottom: 20px;
+        font-family: 'Lora' , serif;
+        font-weight: italic;
+        text-indent: 55px;
+      }
+      text-q {
+        color: black;
+        font-family: 'Alex Brush', cursive;
+        font-size: 80px;
+      }
+
+      /* Logos */
+
+      /* Logos and Image Filter Grayscale */
+
+      img {
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+      }
+
+      img:hover {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+      }
+     
+      /* Images Slideshow */
+      
+      .mySlides {
+        display:none;
+      }
+
+      /* Cards */
+
+      div.card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+        transition: 0.3s;
+        width: 27%;
+        margin: 70px 30px 50px 30px;
+        float: left;
+      }
+
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+        transition: 0.3s;
+      }
+
+      .container_card {
+        padding: 2px 16px;
+      }
+
+      ul {
+        list-style-type: circle-fill;
+      }
+
+      div.background-c {
+        background-image: url("Images/background-bit.png");
+        padding-left: 185px;
+        height: 430px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-top: 95px;
+        color: white;
+        /* text-shadow: 10px 10px 10px rgba(0, 0, 0, 1.0), 5px 5px 5px black; */
+      }
+
+      /* Form */
+
+      input[type=text] {
+            width: 30%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid lightgrey;
+            border-radius: 4px;
+}
+
+  
